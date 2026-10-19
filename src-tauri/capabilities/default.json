@@ -3,7 +3,8 @@
   "identifier": "default",
   "description": "Default permissions for the application",
   "windows": [
-    "main"
+    "main",
+    "settings"
   ],
   "permissions": [
     "core:path:default",
@@ -16,6 +17,10 @@
     "core:tray:default",
     "core:window:allow-set-position",
     "core:window:allow-current-monitor",
-    "core:window:allow-start-dragging"
+    "core:window:allow-start-dragging",
+    "core:window:allow-set-focus",
+    "core:window:allow-set-size",
+    "core:webview:default",
+    "core:webview:allow-create-webview-window"
   ]
 }
